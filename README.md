@@ -135,13 +135,7 @@ arsenal_vs_city_v4.html
 
 ---
 
-## 🚀 Como Usar
 
-**1. Abrir no navegador**
-```bash
-# Simplesmente abra o arquivo no seu navegador favorito
-open arsenal_vs_city_v4.html
-```
 
 **2. Navegar entre as páginas**
 - Clique em **⚡ Comparação** para ver os dois clubes lado a lado
@@ -151,17 +145,6 @@ open arsenal_vs_city_v4.html
 **3. Atualizar os dados**
 - Os dados estáticos (gols, assistências, resultados) podem ser editados diretamente no HTML, nos blocos `scorer-row` e `match-row`
 - Para integrar com uma API real em tempo real, basta substituir os valores estáticos por um `fetch()` na inicialização
-
----
-
-## 📈 Possíveis Evoluções
-
-- [ ] Integração com API em tempo real (SportRadar, football-data.org)
-- [ ] Filtro por período (últimas 5, 10, toda a temporada)
-- [ ] Modo claro / escuro com toggle
-- [ ] Comparação de jogadores individuais
-- [ ] Exportar relatório em PDF
-- [ ] Versão responsiva para mobile
 
 ---
 
@@ -177,15 +160,5 @@ Projeto desenvolvido como parte do portfólio de transição para a área de dad
 
 ---
 
-## 🔗 Outros Projetos
-
-| Projeto | Descrição | Link |
-|---------|-----------|------|
-| **Busca Trampo** | Plataforma de busca de empregos com score de compatibilidade e análise ATS | GitHub |
-| **Finanças PWA** | App pessoal de finanças com localStorage, temas e exportação PDF | GitHub |
-| **FINITECH Terminal** | Dashboard financeiro com IA (Groq/LLaMA), yfinance e dados do BCB | GitHub |
-| **DataNação** | Dashboard de dados públicos brasileiros (BCB, IBGE, IPEA) com Python/Dash | GitHub |
-
----
 
 *Dados atualizados até a Rodada 34 da Premier League 2025/26 · 25 de Abril de 2026*
