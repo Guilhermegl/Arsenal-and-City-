@@ -167,11 +167,11 @@ open arsenal_vs_city_v4.html
 
 ## 👨‍💻 Desenvolvido por
 
-**Guilherme** — Estudante de Análise e Desenvolvimento de Sistemas (ADS)
+**Guilherme de Lima**
 
 Projeto desenvolvido como parte do portfólio de transição para a área de dados, demonstrando habilidades em:
 - Consumo e tratamento de dados de APIs esportivas
-- Visualização de dados com HTML/CSS/JS e Chart.js
+- Visualização de dados
 - Design de interfaces voltadas a análise (BI-style dashboards)
 - Integração de dados reais em produtos front-end
 
