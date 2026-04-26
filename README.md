@@ -1,5 +1,5 @@
 # ⚽ Arsenal vs Manchester City — Dashboard Interativo
-### Premier League 2025/26 · Análise Completa com HTML, CSS e JavaScript Puro
+### Premier League 2025/26 · Análise Completa
 
 ---
 
