@@ -1,0 +1,42 @@
+expression Jogos_Arsenal =
+		let
+		    Source = Table.FromRows({
+		        {24, "31/01/2026", "Leeds United", "Fora", 4, 0, "V", 3},
+		        {25, "07/02/2026", "Sunderland", "Casa", 3, 0, "V", 3},
+		        {26, "12/02/2026", "Brentford", "Fora", 1, 1, "E", 1},
+		        {27, "18/02/2026", "Wolverhampton", "Fora", 2, 2, "E", 1},
+		        {28, "22/02/2026", "Tottenham", "Fora", 4, 1, "V", 3},
+		        {29, "01/03/2026", "Chelsea", "Casa", 2, 1, "V", 3},
+		        {30, "04/03/2026", "Brighton", "Fora", 1, 0, "V", 3},
+		        {31, "14/03/2026", "Everton", "Casa", 2, 0, "V", 3},
+		        {32, "11/04/2026", "Bournemouth", "Casa", 1, 2, "D", 0},
+		        {33, "19/04/2026", "Manchester City", "Fora", 1, 2, "D", 0}
+		    },
+		    {"Rodada", "Data", "Adversario", "Mando", "Gols_Marcados", "Gols_Sofridos", "Resultado", "Pontos_Rodada"},
+		    {Int64.Type, type text, type text, type text, Int64.Type, Int64.Type, type text, Int64.Type}
+		    )
+		in
+		    Source
+	lineageTag: b3f8f5a9-6609-4dc4-a0cb-070b9c4ddc9a
+
+expression Jogos_City =
+		let
+		    Source = Table.FromRows({
+		        {23, "24/01/2026", "Wolverhampton", "Casa", 2, 0, "V", 3},
+		        {24, "01/02/2026", "Tottenham", "Fora", 2, 2, "E", 1},
+		        {25, "08/02/2026", "Liverpool", "Fora", 2, 1, "V", 3},
+		        {26, "11/02/2026", "Fulham", "Casa", 3, 0, "V", 3},
+		        {27, "21/02/2026", "Newcastle", "Casa", 2, 1, "V", 3},
+		        {28, "28/02/2026", "Leeds United", "Fora", 1, 0, "V", 3},
+		        {29, "04/03/2026", "Nottm Forest", "Casa", 2, 2, "E", 1},
+		        {30, "14/03/2026", "West Ham", "Fora", 1, 1, "E", 1},
+		        {31, "12/04/2026", "Chelsea", "Fora", 3, 0, "V", 3},
+		        {32, "19/04/2026", "Arsenal", "Casa", 2, 1, "V", 3}
+		    },
+		    {"Rodada", "Data", "Adversario", "Mando", "Gols_Marcados", "Gols_Sofridos", "Resultado", "Pontos_Rodada"},
+		    {Int64.Type, type text, type text, type text, Int64.Type, Int64.Type, type text, Int64.Type}
+		    )
+		in
+		    Source
+	lineageTag: 21cc73cd-0b7f-426a-84a9-8516c57ed97a
+

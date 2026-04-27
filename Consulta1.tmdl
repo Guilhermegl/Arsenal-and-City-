@@ -1,0 +1,37 @@
+table Consulta1
+	lineageTag: 7937f058-7d3a-48ca-892d-89ac51f934e2
+
+	column Consulta1
+		dataType: string
+		lineageTag: 4a046119-9db4-4f7f-a1d8-8ceb8bd78042
+		summarizeBy: none
+		sourceColumn: Consulta1
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Consulta1 = m
+		mode: import
+		source =
+				let
+				    Source = Table.FromRows({
+				        {1, "Arsenal FC", "ARS", 33, 21, 7, 5, 70, 0.67},
+				        {2, "Manchester City", "MCI", 32, 20, 7, 5, 67, 0.64},
+				        {3, "Manchester United", "MUN", 33, 16, 10, 7, 58, 0.55},
+				        {4, "Aston Villa", "AVL", 33, 17, 7, 9, 58, 0.55},
+				        {5, "Liverpool FC", "LFC", 33, 16, 7, 10, 55, 0.52},
+				        {6, "Chelsea FC", "CFC", 33, 13, 9, 11, 48, 0.48},
+				        {7, "Brentford FC", "BRE", 33, 13, 9, 11, 48, 0.48},
+				        {8, "AFC Bournemouth", "BOU", 33, 11, 15, 7, 48, 0.48},
+				        {9, "Brighton", "BRI", 33, 12, 11, 10, 47, 0.47},
+				        {10, "Everton FC", "EVE", 33, 13, 8, 12, 47, 0.47}
+				    },
+				    {"Posicao", "Time", "Sigla", "Jogos", "Vitorias", "Empates", "Derrotas", "Pontos", "Aproveitamento"},
+				    {Int64.Type, type text, type text, Int64.Type, Int64.Type, Int64.Type, Int64.Type, Int64.Type, type number}
+				    )
+				in
+				    Source
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Text
+
